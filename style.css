@@ -612,16 +612,17 @@ form {
 }
 
 /* Responsive adjustments */
-@media (max-width: 1000px) {
+@media (max-width: 100px) {
   .contact-info-upper-container {
       flex-direction: column;
   }
   
   /* Adjust the form and other elements on smaller screens */
   form {
-      padding: 15px;
+      padding: 55px;
       width: 90%;
       margin: 0 auto;
+      margin-top: 600px;
   }
   
   /* Reduce font sizes for mobile screens */
