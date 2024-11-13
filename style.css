@@ -589,3 +589,26 @@ footer p {
 #footerlinks ul{
   background-color: #000;
 }
+@media (max-width: 600px) {
+  form {
+      max-width: 100%;
+      padding: 10px;
+      margin: 0 10px;
+  }
+}
+form input, form textarea, form button {
+  width: 100%;
+  box-sizing: border-box;
+}
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+}
