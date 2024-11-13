@@ -612,7 +612,7 @@ form {
 }
 
 /* Responsive adjustments */
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .contact-info-upper-container {
       flex-direction: column;
   }
